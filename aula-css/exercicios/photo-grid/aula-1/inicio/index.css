@@ -1,5 +1,4 @@
 body {
-
     padding: 30px;
     background-color: rgba(117, 111, 111, 0.301);
     display: flex;
@@ -25,19 +24,22 @@ body {
      padding-left: 20px;
  }
  
- .user-images tr {
-     
+ .user-images tr {     
      align-items: center;
      background-color: rgba(117, 111, 111, 0.301);
-     
- }
+}
+
+.user-images tr td {
+    background: white;
+}
 
  .user-images table {
      padding-top: 20px;
  }
 
  .user-images table img {
-     padding: 15px;
+     padding: 0;
+     background-color: white;
  }
 
  .user-images table tr td img {
