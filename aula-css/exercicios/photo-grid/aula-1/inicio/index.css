@@ -1,0 +1,68 @@
+body {
+
+    padding: 30px;
+    background-color: rgba(117, 111, 111, 0.301);
+    display: flex;
+    justify-content: center;
+}
+
+.page {     
+    background-color: white;
+ }
+ 
+ .user-data {
+     display: flex;
+     padding-left: 15px;
+ }
+
+ .user-data img {
+     border: 0;
+     border-radius: 7rem;
+     max-width: 50px;     
+ }
+
+ .user-description {
+     padding-left: 20px;
+ }
+ 
+ .user-images tr {
+     
+     align-items: center;
+     background-color: rgba(117, 111, 111, 0.301);
+     
+ }
+
+ .user-images table {
+     padding-top: 20px;
+ }
+
+ .user-images table img {
+     padding: 15px;
+ }
+
+ .user-images table tr td img {
+    width: 280px;
+    height: 280px;
+ }
+
+ .profile-image img {
+
+ } 
+
+ footer {
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+ }
+
+@media(max-width: 730px){
+    .user-images tr td {
+        display: inline;
+        padding: auto;        
+    }
+
+    .user-images table tr td img {
+        width: 50vh;
+        height: 50vh;
+    }
+}

@@ -1,0 +1,123 @@
+#page {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-desc {
+    display: flex;
+    padding-left: 15px;
+}
+
+#page .side-image-info .descrip .up-text {
+    display: inline-block;       
+}
+ 
+
+.side-image-info {
+    display: flex;
+    justify-content: left;
+    background-color: rgba(112, 117, 111, 0.301);
+    max-width: 390px;   
+}
+
+.side-image-info img {    
+    border: 0;
+    border-radius: 7rem;
+    max-width: 50px;
+    max-height: 50px;     
+    background-color: blue;
+}
+
+.side-image-info {
+    padding: 10px;
+}
+
+.descrip {
+    padding-left: 15px;
+}
+
+.nick {
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;    
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+@media(max-width: 1165px){
+    #page {
+        padding: 10%;
+        display: inline; 
+        padding: 15vw;          
+    }
+    
+    #page .image-desc {
+        display: flex;
+        padding-left: 15vw;
+    }
+    
+    .image-desc {
+        display: flex;
+        padding-left: 15px;
+    }
+    
+    
+    .side-image-info {
+        display: inline-block;
+        
+
+    }
+
+    .side-image-info {
+        padding: 0;
+    }
+
+    #page .side-image-info {
+        margin-left: 15vw;
+        background-color: rgba(112, 117, 111, 0.301);
+        min-width: 480px;
+        min-height: 400px;
+    }
+
+   #page .side-image-info .descrip .up-text {
+       display: inline-block;       
+   }
+    
+    .side-image-info img {    
+        border: 0;
+        border-radius: 7rem;
+        max-width: 50px;
+        max-height: 50px;     
+        background-color: blue;
+    }  
+    
+    .side-image-info img {    
+        border: 0;
+        border-radius: 7rem;
+        max-width: 50px;
+        max-height: 50px;     
+        background-color: blue;
+    }
+    
+    .side-image-info {
+        padding: 10px;
+    }
+
+   .text {
+       min-width: 480px;
+   }
+    
+  
+}
+
