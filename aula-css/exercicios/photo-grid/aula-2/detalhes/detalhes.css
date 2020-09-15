@@ -1,0 +1,61 @@
+#top {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+#top #botao-voltar {
+  font-weight: bold;
+}
+
+#top #titulo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#middle {
+  display: inline-block;
+  margin: 0 25%;
+  
+}
+
+#middle .imagem-texto {
+  max-width: 320px;
+  background-color: rgba(209, 209, 190, 0.644);
+  padding: 20px;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  font-size: 15px;
+}
+
+@media (min-width: 1150px) { 
+
+    #middle {
+      display: flex;
+      margin: 0 20%;
+    }
+
+    #middle img {
+      
+      max-width: 400px;
+      min-width: 200px;
+    }
+
+    #middle .imagem-texto {
+      background-color: rgba(209, 209, 190, 0.644);
+      max-width: 300px;
+      min-width: 100px;
+      padding: 20px;
+    }
+
+    #bottom {
+      display: flex;
+      justify-content: center;
+      margin: 8% 5% 4%;
+      font-size: 17px;
+    }
+  }
