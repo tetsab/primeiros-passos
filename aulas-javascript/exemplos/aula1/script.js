@@ -3,14 +3,14 @@
 //alert('Olá mundo!');
 
 /*
-let nome = 'Rita';
+let nome = 'Nataly';
 console.log(nome);
 
-nome = 'Laryssa';
+nome = 'Nataly';
 console.log(nome);
 */
 
-//let nome = 'Rita';
+//let nome = 'Nataly';
 
 //console.log(`Meu nome é ${nome}`);
 
@@ -22,7 +22,7 @@ console.log(nome);
   console.log(`${nome} ${sobrenome}`);
 }
 
-mostrarNome('Rita', 'Lino');
+mostrarNome('Nataly', 'Martins');
 
 function somarNumeros(numero1, numero2) {
   console.log(numero1 + numero2);
