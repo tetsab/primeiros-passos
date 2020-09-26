@@ -1,0 +1,10 @@
+.content {    
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    background-color:  rgba(46, 107, 177, 0.8);
+    margin: 5%;
+    padding: 2%;
+    border: solid rgb(13, 51, 175) 20px;
+    border-radius: 2rem;    
+}
